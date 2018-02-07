@@ -468,6 +468,7 @@ class ComposerStaticInit4afd09a7a2946aaa20fe1a133045ddfe
         'CreateHistoryTable' => __DIR__ . '/../..' . '/database/migrations/2014_11_03_151402_create_history_table.php',
         'CreateMenulinksTables' => __DIR__ . '/../..' . '/database/migrations/2013_09_03_084148_create_menulinks_tables.php',
         'CreateMenusTables' => __DIR__ . '/../..' . '/database/migrations/2013_09_03_084147_create_menus_tables.php',
+        'CreateNewsTable' => __DIR__ . '/../..' . '/database/migrations/2013_11_07_185433_create_news_table.php',
         'CreatePagesTable' => __DIR__ . '/../..' . '/database/migrations/2013_08_29_174626_create_pages_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2012_12_06_225922_create_password_resets_table.php',
         'CreatePermissionTables' => __DIR__ . '/../..' . '/database/migrations/2017_12_19_152348_create_permission_tables.php',

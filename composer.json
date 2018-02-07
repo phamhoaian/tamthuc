@@ -36,7 +36,7 @@
         "typicms/menus": "~2.9.0",
         "typicms/pages": "~2.9.0",
         "typicms/settings": "~2.9.0",
-        "typicms/sitemap": "~2.9.0",
+        "typicms/sitemap": "^2.9",
         "typicms/translations": "~2.9.0",
         "typicms/users": "~2.9.0",
         "typicms/news": "^2.9"

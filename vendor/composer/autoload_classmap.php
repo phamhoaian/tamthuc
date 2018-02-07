@@ -14,6 +14,7 @@ return array(
     'CreateHistoryTable' => $baseDir . '/database/migrations/2014_11_03_151402_create_history_table.php',
     'CreateMenulinksTables' => $baseDir . '/database/migrations/2013_09_03_084148_create_menulinks_tables.php',
     'CreateMenusTables' => $baseDir . '/database/migrations/2013_09_03_084147_create_menus_tables.php',
+    'CreateNewsTable' => $baseDir . '/database/migrations/2013_11_07_185433_create_news_table.php',
     'CreatePagesTable' => $baseDir . '/database/migrations/2013_08_29_174626_create_pages_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2012_12_06_225922_create_password_resets_table.php',
     'CreatePermissionTables' => $baseDir . '/database/migrations/2017_12_19_152348_create_permission_tables.php',

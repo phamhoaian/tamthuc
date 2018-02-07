@@ -11,9 +11,9 @@ return [
         'fr'  => 'French',
         'es'  => 'Spanish',
         'nl'  => 'Dutch',
-        'en'  => 'English',
-        'vi'  => 'Vietnamese',
-        'all' => 'All languages',
+        'en'  => 'Tiếng Anh',
+        'vi'  => 'Tiếng Việt',
+        'all' => 'Tất cả ngôn ngữ',
     ],
     'form' => [
         'page content' => 'page content',
