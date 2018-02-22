@@ -9,6 +9,7 @@ return array(
     'Roumen\\Sitemap' => array($vendorDir . '/roumen/sitemap/src'),
     'Roumen\\Feed' => array($vendorDir . '/roumen/feed/src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Msurguy\\Honeypot\\' => array($vendorDir . '/msurguy/honeypot/src'),
     'Mockery' => array($vendorDir . '/mockery/mockery/library'),
     'Laracasts\\Presenter' => array($vendorDir . '/laracasts/presenter/src'),
     'Krucas\\Notification' => array($vendorDir . '/edvinaskrucas/notification/src'),

@@ -4922,5 +4922,95 @@
                 "email": "sdebacker@gmail.com"
             }
         ]
+    },
+    {
+        "name": "msurguy/honeypot",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/msurguy/Honeypot.git",
+            "reference": "861deefc8a4cc13b9a73820aba92db21c32a7159"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/msurguy/Honeypot/zipball/861deefc8a4cc13b9a73820aba92db21c32a7159",
+            "reference": "861deefc8a4cc13b9a73820aba92db21c32a7159",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/config": "4.*|5.*",
+            "illuminate/support": "4.*|5.*",
+            "illuminate/translation": "4.*|5.*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*",
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2017-01-17T19:43:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Msurguy\\Honeypot\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Maksim Surguy",
+                "email": "m.surguy@gmail.com"
+            }
+        ],
+        "description": "Honeypot spam prevention",
+        "keywords": [
+            "Forms",
+            "Honeypot",
+            "laravel",
+            "spam"
+        ]
+    },
+    {
+        "name": "typicms/contacts",
+        "version": "2.9.0",
+        "version_normalized": "2.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TypiCMS/Contacts.git",
+            "reference": "d13dbdcff312d6ffc5f84abd27d89fc09aae526f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TypiCMS/Contacts/zipball/d13dbdcff312d6ffc5f84abd27d89fc09aae526f",
+            "reference": "d13dbdcff312d6ffc5f84abd27d89fc09aae526f",
+            "shasum": ""
+        },
+        "require": {
+            "msurguy/honeypot": "~1.0.0",
+            "typicms/core": "~2.9.0"
+        },
+        "time": "2016-11-04T22:14:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TypiCMS\\Modules\\Contacts\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Samuel De Backer",
+                "email": "sdebacker@gmail.com"
+            }
+        ],
+        "description": "A public form for contact requests and a back office interface to manage them."
     }
 ]

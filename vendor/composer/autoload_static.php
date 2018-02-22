@@ -51,6 +51,7 @@ class ComposerStaticInit4afd09a7a2946aaa20fe1a133045ddfe
             'TypiCMS\\Modules\\Files\\' => 22,
             'TypiCMS\\Modules\\Dashboard\\' => 26,
             'TypiCMS\\Modules\\Core\\' => 21,
+            'TypiCMS\\Modules\\Contacts\\' => 25,
             'TypiCMS\\Modules\\Blocks\\' => 23,
             'TypiCMS\\Modules\\' => 16,
             'TypiCMS\\' => 8,
@@ -198,6 +199,10 @@ class ComposerStaticInit4afd09a7a2946aaa20fe1a133045ddfe
         'TypiCMS\\Modules\\Core\\' => 
         array (
             0 => __DIR__ . '/..' . '/typicms/core/src',
+        ),
+        'TypiCMS\\Modules\\Contacts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/typicms/contacts/src',
         ),
         'TypiCMS\\Modules\\Blocks\\' => 
         array (
@@ -402,6 +407,10 @@ class ComposerStaticInit4afd09a7a2946aaa20fe1a133045ddfe
         ),
         'M' => 
         array (
+            'Msurguy\\Honeypot\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/msurguy/honeypot/src',
+            ),
             'Mockery' => 
             array (
                 0 => __DIR__ . '/..' . '/mockery/mockery/library',

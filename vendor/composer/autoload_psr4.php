@@ -22,6 +22,7 @@ return array(
     'TypiCMS\\Modules\\Files\\' => array($vendorDir . '/typicms/files/src'),
     'TypiCMS\\Modules\\Dashboard\\' => array($vendorDir . '/typicms/dashboard/src'),
     'TypiCMS\\Modules\\Core\\' => array($vendorDir . '/typicms/core/src'),
+    'TypiCMS\\Modules\\Contacts\\' => array($vendorDir . '/typicms/contacts/src'),
     'TypiCMS\\Modules\\Blocks\\' => array($vendorDir . '/typicms/blocks/src'),
     'TypiCMS\\Modules\\' => array($baseDir . '/Modules'),
     'TypiCMS\\' => array($vendorDir . '/typicms/nestablecollection/src'),

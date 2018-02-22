@@ -183,6 +183,7 @@ return [
          */
         TypiCMS\Modules\News\Providers\ModuleProvider::class,
         TypiCMS\Modules\Core\Providers\ModuleProvider::class,
+        TypiCMS\Modules\Contacts\Providers\ModuleProvider::class,
     ],
 
     /*

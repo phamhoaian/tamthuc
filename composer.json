@@ -39,7 +39,8 @@
         "typicms/sitemap": "^2.9",
         "typicms/translations": "~2.9.0",
         "typicms/users": "~2.9.0",
-        "typicms/news": "^2.9"
+        "typicms/news": "^2.9",
+        "typicms/contacts": "^2.9.0"
     },
     "require-dev": {
         "laracasts/generators": "~1.1",
