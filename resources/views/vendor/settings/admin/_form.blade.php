@@ -42,6 +42,9 @@
 {!! BootForm::select(trans('validation.attributes.admin_locale'), 'admin_locale', array_combine($locales, $locales)) !!}
 {!! BootForm::text(trans('validation.attributes.google_analytics_code'), 'google_analytics_code') !!}
 {!! BootForm::text(trans('validation.attributes.google_tag_manager_id'), 'google_tag_manager_id') !!}
+{!! BootForm::text(trans('validation.attributes.facebook_url'), 'facebook_url') !!}
+{!! BootForm::text(trans('validation.attributes.instagram_url'), 'instagram_url') !!}
+{!! BootForm::text(trans('validation.attributes.website_url'), 'website_url') !!}
 {!! BootForm::hidden('lang_chooser')->value(0) !!}
 @if (config('typicms.main_locale_in_url'))
     {!! BootForm::checkbox(trans('validation.attributes.lang_chooser'), 'lang_chooser') !!}

@@ -255,6 +255,9 @@ return [
         'admin_locale'          => 'Administration language',
         'auth_public'           => 'Authenticate to view website',
         'registration allowed'  => 'Registration allowed',
+        'facebook_url'          => 'Facebook URL',
+        'instagram_url'         => 'Instagram URL',
+        'website_url'           => 'Website URL',
 
         // Galleries
         'galleries' => 'Galleries',

@@ -9,7 +9,7 @@
         @endif
     </a>
     @if ($menulink->items->count())
-        <ul class="dropdown-menu">
+        <ul class="mo-nav-sub">
             @foreach ($menulink->items as $menulink)
                 @include('menus::public._item', ['menulink' => $menulink])
             @endforeach

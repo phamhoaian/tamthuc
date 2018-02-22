@@ -1,10 +1,10 @@
 @if ($model->files->count())
     <ul class="gallery-files files-list">
     @foreach ($model->files as $file)
-        <li class="files-list-item">
+        <li class="mo-gallery-item">
             @if ($file->type == 'i')
-            <a class="files-list-image fancybox" href="{!! $file->present()->thumbSrc(1200, 1200, array('resize'), 'file') !!}" data-fancybox-group="{{ $model->slug }}">
-                <img class="files-list-image-thumb" src="{!! $file->present()->thumbSrc(370, 370, array(), 'file') !!}" alt="{{ $file->alt_attribute }}">
+            <a class="files-list-image fancybox" href="javascript:void(0)" data-fancybox-group="{{ $model->slug }}">
+                <img class="files-list-image-thumb" src="{!! $file->present()->thumbSrc(0, 0, array(), 'file') !!}" alt="{{ $file->alt_attribute }}">
             </a>
             @else
             <a class="files-list-document" href="{{ asset($file->path.'/'.$file->file) }}" target="_blank">
